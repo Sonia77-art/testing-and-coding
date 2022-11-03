@@ -3,3 +3,11 @@ const myName = function () {
 };
 
 console.log(myName());
+
+const checkBingo = function (number) {
+  if (number > 5) {
+    return "Bingo";
+  } else {
+    return "No bingo";
+  }
+};
